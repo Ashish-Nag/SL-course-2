@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# components.ts
+Problem-1/components.ts
+
+# angular.json
+Problem-1/anfular.json
