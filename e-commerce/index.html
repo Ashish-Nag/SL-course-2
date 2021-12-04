@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">
+            <h3>Phone</h3>
+            <p>A slim and sleek mobile phone, capable of running multiple apps</p>
+            <h4>$200</h4>
+        </div>
+        <div class="item">
+            <h3>Laptop</h3>
+            <p>The laptop is next generation and can be used for all sort of internet activity</p>
+            <h4>$2000</h4>
+        </div>
+        <div class="item">
+            <h3>Axe</h3>
+            <p>The product can be used for any number of physical activity, including bodybuilding</p>
+            <h4>$100</h4>
+        </div>
+    </div>
+    <div class="form-container">
+        <form>
+            <select name="itemName" id="selectMenu">
+                <option value="200">Phone</option>
+                <option value="2000">Laptop</option>
+                <option value="100">Axe</option>
+            </select>
+            <p> Qty
+                <input type="number" step="1" id="itemQuantity" />
+            </p>
+            <button type="submit" id="submitBtn">Add</button>
+        </form>
+    </div>
+    <div id="display-details">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
